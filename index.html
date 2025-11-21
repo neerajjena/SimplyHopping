@@ -13,6 +13,20 @@
               'viet-green': '#009B4D',
               'viet-yellow': '#FFCC00',
               'viet-ivory': '#FAF5E9',
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+              'fade-in': 'fadeIn 1s ease-out forwards',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
             }
           }
         }
@@ -47,5 +61,6 @@
 </head>
   <body class="bg-viet-ivory text-slate-800 antialiased selection:bg-viet-yellow selection:text-slate-900">
     <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
   </body>
 </html>
