@@ -56,7 +56,7 @@ const Essentials: React.FC = () => {
               <h3 className="text-xl font-bold text-slate-800">Currency & Sim</h3>
             </div>
             <ul className="space-y-3 text-sm text-slate-600">
-              <li className="flex items-start"><span className="mr-2 text-viet-green">•</span> Exchange small INR to VND for emergency.</li>
+              <li className="flex items-start"><span className="mr-2 text-viet-green">•</span> Exchange small amount of INR to VND for emergency.</li>
               <li className="flex items-start"><span className="mr-2 text-viet-green">•</span> <strong>Avoid Airport Exchange:</strong> Rates are poor.</li>
               <li className="flex items-start"><span className="mr-2 text-viet-green">•</span> Bring USD for better rates at local Authorized Exchange centers.</li>
               <li className="flex items-start"><span className="mr-2 text-viet-green">•</span> <strong>Sim:</strong> Viettel/Vinaphone. Buy eSIM via Klook before arrival.</li>
